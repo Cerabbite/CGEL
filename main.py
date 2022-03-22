@@ -17,7 +17,7 @@ def generate_words(possible_consonants, possible_vowels):
     for i in range(random.randint(100, 1000)):
         word = ''
         for y in range(word_length):
-            print(syllable_order[y])
+            #print(syllable_order[y])
             if syllable_order[y] == "C":
                 word += random.choice(possible_consonants)
             else:
@@ -30,7 +30,7 @@ def generate_words(possible_consonants, possible_vowels):
 def algorithm(possible_consonants, possible_vowels):
     gen = 0
     while True:
-        words, syllable_order = generate_words(possible_consonants, possible_consonants)
+        words, syllable_order = generate_words(possible_consonants, possible_vowels)
         score = 0
 
         if score >= 5000:
