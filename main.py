@@ -1,10 +1,13 @@
 import random
 
+# What will a humand decide?
+#   Grammar tenses
+#   Rough word length (between x and y)
+#   Phonetics (For now later the algorithm might be able to choose his own phonetics)
+
 # What does the algorithm need to solve?
-#   The word length
 #   The syllable_order
 #   What words mean what
-#   The grammar of the language
 
 
 possible_consonants = ['m', 'n', 'p', 't', 'k', 's', 'w', 'l', 'j']
