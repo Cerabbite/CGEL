@@ -23,6 +23,8 @@ Step 5: Create a new language with the input of the human
 Repeat step 1 to 5 upuntill the language is super easy to learn
 """
 
+# The algorithm looks for synonyms and words that have roughly the same meaning to store in the same word
+
 possible_consonants = ['m', 'n', 'p', 't', 'k', 's', 'w', 'l', 'j']
 possible_vowels = ['i', 'u', 'e', 'o', 'a']
 
