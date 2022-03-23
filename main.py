@@ -7,8 +7,10 @@ import random
 
 # What does the algorithm need to solve?
 #   The syllable_order
-#   What words mean what
+#   What words mean what (Based upon the top 10.000 most used English words)
+#   Pronouns
 
+# The algorithm will generate between 1 and 500 different words and 15.000 sample sentences based upon the 15.000 most used sentences in English.
 
 possible_consonants = ['m', 'n', 'p', 't', 'k', 's', 'w', 'l', 'j']
 possible_vowels = ['i', 'u', 'e', 'o', 'a']
