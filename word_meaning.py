@@ -3,6 +3,11 @@ from bs4 import BeautifulSoup
 import requests
 import json
 
+
+"""
+Check if words are synonyms or have a similar meaning if so there is a chance that they will be merged into one word
+"""
+
 class Dictionary:
     def __init__(self, word):
         self.access_api = requests.get(f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}")
