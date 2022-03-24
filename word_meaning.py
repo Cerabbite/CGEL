@@ -15,13 +15,14 @@ class Dictionary:
         self.word = self.get_word[0] #self.get_word.decode("utf-8")
         #print(self.word)
         self.get_synonyms()
+        self.get_meaning()
 
     def get_synonyms(self):
         self.synonyms = self.word["meanings"][0]
-        print(self.synonyms['definitions'])
+        #print(self.synonyms['definitions'])
         for i in range(len(self.synonyms['definitions'])):
-        	#print(self.synonyms["definitions"][i]['synonyms'])
-        	pass
+        	print(self.synonyms["definitions"][i]['synonyms'])
+        	
 
     def get_meaning(self):
         self.meaning = self.word["meanings"][0]
