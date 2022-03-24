@@ -2,6 +2,7 @@
 from bs4 import BeautifulSoup
 import requests
 import json
+from difflib import SequenceMatcher
 
 
 """
@@ -22,7 +23,7 @@ class Dictionary:
         #print(self.synonyms['definitions'])
         for i in range(len(self.synonyms['definitions'])):
         	print(self.synonyms["definitions"][i]['synonyms'])
-        	
+
 
     def get_meaning(self):
         self.meaning = self.word["meanings"][0]
@@ -31,4 +32,10 @@ class Dictionary:
         #print(self.meaning)
 
 
-Dictionary('good')
+Dictionary('administration')
+
+a = "Administration; the use of limited resources combined with forecasting, planning, leadership and execution skills to achieve predetermined specific goals."
+b = "The act of administering; government of public affairs; the service rendered, or duties assumed, in conducting affairs; the conducting of any office or employment; direction."
+
+ratio = SequenceMatcher(None, a, b).ratio()
+print(ratio)
