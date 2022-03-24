@@ -7,6 +7,9 @@ from difflib import SequenceMatcher
 
 """
 Check if words are synonyms or have a similar meaning if so there is a chance that they will be merged into one word
+
+First the code loops through all the words and sees if stores all its synonyms if a synonym is also in the list it will imediately check the synonyms of that word
+If more than x percent of all synonyms are different from the new word then it gets to stay in the list otherwise it will get removed
 """
 
 class Dictionary:
