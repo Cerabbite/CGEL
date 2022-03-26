@@ -11,3 +11,11 @@ What will the computer decide?
 - How grammar tenses are going to be implemented
 - Word order
 - Any possible grammar rule exceptions
+
+Consonants
+| |Labial|Coronal|Dorsal|
+|-|------|--------|-----|
+|Nasal|m|n| |
+|Stop|p|t|k|
+|Fricative| |s| |
+|Approximant|w|l|j|
