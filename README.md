@@ -19,3 +19,5 @@ Consonants
 |Stop|p|t|k|
 |Fricative| |s| |
 |Approximant|w|l|j|
+
+Good series: https://www.youtube.com/watch?v=Y_hzMnRXjhI
