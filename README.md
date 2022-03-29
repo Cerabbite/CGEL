@@ -21,3 +21,6 @@ Consonants
 |Approximant|w|l|j|
 
 Good series: https://www.youtube.com/watch?v=Y_hzMnRXjhI
+
+# Join the community
+- [Discord](https://discord.gg/T4UfPJTwV7)
