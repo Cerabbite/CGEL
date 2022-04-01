@@ -23,4 +23,4 @@ Consonants
 Good series: https://www.youtube.com/watch?v=Y_hzMnRXjhI
 
 # Join the community
-- [Discord](https://discord.gg/T4UfPJTwV7)
+- [Discord](https://discord.gg/6ZPnv74Skw)
