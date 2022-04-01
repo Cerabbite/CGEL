@@ -1,11 +1,11 @@
 # Easy-conalng
 What will humans decide?
-- Grammar tenses
 - Min and max word length
 - How easy to learn and use the language is
 - Phonetics
 
 What will the computer decide?
+- Grammar tenses
 - Syllable order
 - What words mean what
 - How grammar tenses are going to be implemented
@@ -21,3 +21,6 @@ Consonants
 |Approximant|w|l|j|
 
 Good series: https://www.youtube.com/watch?v=Y_hzMnRXjhI
+
+# Join the community
+- [Discord](https://discord.gg/T4UfPJTwV7)
