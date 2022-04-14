@@ -1,4 +1,8 @@
 # Easy-conalng
+To Do:
+- Write algorithm that decides how words should be put togethor
+- Create website to test the speakability of words
+
 What will humans decide?
 - Min and max word length
 - How easy to learn and use the language is
