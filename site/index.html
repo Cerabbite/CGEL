@@ -1,37 +1,23 @@
 <!DOCTYPE html>
-
 <html>
-
-
  <head>
-  <title>AUTOSELECTEST</title>
-
+  <title>Phonology</title>
   <script type="text/javascript" src="js/jquery.js"></script>
   <script>
-        $.get(/public/js/pytxt.json",
-              function(data,error) {
-                if (error) {
-                      console.log (error);
-                  }
-                alert( "Data Loaded: " );
-                console.log('start processing text')
-                console.log(data); /* Open the console too see the data */
-                var options = JSON.parse(data);
-                /* Something to "explode" by. See link. */
-                for (i in options) {
-                  $("#value").append('<option value="' + options[i] + '">' + i + '</option>');
-                }
-      });
+    $.get('countries.txt', function(data) {
+      items = manipulate data to get items;
+      $('select[name=colors]').append('<option value="">' + items + '</option>');
+    });
   </script>
 </head>
 
 <body>
   <div id="page-wrap">
-    <h1>Pulls from text files</h1>
-    <select id="value">
-                <option selected value="base">Please Select</option>
-            </select>
-
+    <h1>Select your native language</h1>
+    <select name="colors">
+    <option selected value="base">Please Select</option>
+    <option value="">item1</option>
+    <option value="">item2</option>
   </div>
 </body>
 
