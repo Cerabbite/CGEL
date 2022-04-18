@@ -4,7 +4,7 @@ const getLanguages = async () => {
 const parent = document.querySelector('#languages');
 
 
-const languages = await fetch('sample.txt').then(x => x.text()).then((data) => data.split(',').sort());
+const languages = await fetch('sample.txt').then(x => x.text()).then((data) => data.split(/\r?\n/).sort());
 
 If (languages) {
 
