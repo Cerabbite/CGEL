@@ -12,12 +12,12 @@ syllable_structure = ["CV", "VC", "CV", "CCV", "VCC", "CCVC", "CVCC", "CCVCC"]
 amm_words = 100
 
 for g in range(amm_words):
-    for i in syllable_structure:
-        word = ""
-        for y in i:
-            if y == "C":
-                word += random.choice(C)
-            elif y == "V":
-                word += random.choice(V)
+    i = random.choice(syllable_structure)
+    word = ""
+    for y in i:
+        if y == "C":
+            word += random.choice(C)
+        elif y == "V":
+            word += random.choice(V)
 
-        print(word)
+    print(word, i)
