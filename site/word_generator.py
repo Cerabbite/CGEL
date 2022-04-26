@@ -9,7 +9,7 @@ print(V)
 
 syllable_structure = ["CV", "VC", "CV", "CCV", "VCC", "CCVC", "CVCC", "CCVCC"]
 
-amm_words = 100
+amm_words = 1000
 
 for g in range(amm_words):
     i = random.choice(syllable_structure)
